@@ -35,3 +35,35 @@ if x=="a" or x=="A":
     a=a+1
 else:
     print("Incorrect. The correct answer is a)Reading")
+print("4. What is Neeal's favorite food?")
+print("a) Pizza")
+print("b) Dal Makani")
+print("c) Burgers")
+print("d) Samosa")
+print("e) Garlic Bread")
+w=input("Enter your answer here, only the letter: ")
+if w=="d" or w=="D":
+    print("Correct!")
+    a=a+1
+else:
+    print("Incorrect. The correct answer is d)Samosa")
+print("5. What is Neeal's favorite sport?")
+print("a) Football")
+print("b) Basketball")
+print("c) Cricket")
+print("d) Tennis")
+v=input("Enter your answer here, only the letter: ")
+if v=="c" or v=="C":
+    print("Correct!")
+    a=a+1
+else:
+    print("Incorrect. The correct answer is c)Cricket")
+print("You have completed the quiz!")
+print("Calculating your score...")
+print("You got", a, "out of 5 questions correct.")
+if a==5:
+    print("Excellent work! You really know Neeal well!")
+elif a>=3:
+    print("Good job! You have a decent knowledge about Neeal.")
+else:
+    print("You might want to get to know Neeal better!")
